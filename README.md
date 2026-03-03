@@ -16,7 +16,7 @@ Claude Code plugin that marks AI-generated code with comment annotations. Adds `
 Add the marketplace:
 
 ```
-/plugin marketplace add wraithy/claude-ai-code-marker
+/plugin marketplace add wraithyy/claude-ai-code-marker
 ```
 
 Install the plugin:
