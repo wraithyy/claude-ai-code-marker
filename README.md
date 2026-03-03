@@ -103,4 +103,9 @@ The plugin uses language-appropriate comment syntax:
 
 ## License
 
-MIT
+Ethical Source License (ESL) - Restricted Use. See [LICENSE](LICENSE).
+
+This software may NOT be used by or for:
+- Energy companies (fossil fuel extraction, production, refining, trading, distribution)
+- Government and state administration (agencies, ministries, law enforcement, military, state-owned enterprises)
+- Contractors working primarily for the above

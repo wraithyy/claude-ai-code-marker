@@ -1,16 +1,40 @@
-MIT License
+Ethical Source License (ESL) - Restricted Use
+Version 1.0
 
 Copyright (c) 2026 wraithy
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person or organization
+(the "User") obtaining a copy of this software and associated documentation
+files (the "Software"), to use, copy, modify, merge, publish, distribute,
+and/or sublicense copies of the Software, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. The above copyright notice and this permission notice shall be included
+   in all copies or substantial portions of the Software.
+
+2. The Software SHALL NOT be used by, for, or on behalf of any of the
+   following entities or purposes:
+
+   a) ENERGY COMPANIES - Any organization whose primary business activity
+      involves the extraction, production, refining, trading, distribution,
+      or sale of fossil fuels (oil, natural gas, coal), or any subsidiary,
+      contractor, or affiliate acting on their behalf.
+
+   b) GOVERNMENT AND STATE ADMINISTRATION - Any government body, state
+      agency, public administration office, ministry, municipality, or any
+      entity established by or operating under the direct authority of a
+      national, regional, or local government. This includes but is not
+      limited to law enforcement agencies, intelligence services, military
+      organizations, regulatory bodies, and state-owned enterprises.
+
+   c) CONTRACTORS AND SUBCONTRACTORS - Any entity using the Software to
+      provide services, products, or deliverables primarily intended for
+      the restricted entities listed in (a) and (b) above.
+
+3. Redistribution of the Software to third parties is permitted, provided
+   that this license and all restrictions are preserved in full.
+
+4. Any violation of the restrictions in Section 2 automatically terminates
+   the User's rights under this license.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
