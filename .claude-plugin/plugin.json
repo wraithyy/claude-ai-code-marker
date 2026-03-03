@@ -1,0 +1,10 @@
+{
+  "name": "ai-code-marker",
+  "description": "Mark AI-generated code with start/end comment annotations. Toggle on/off per session or apply retroactively to changed files.",
+  "version": "1.0.0",
+  "author": {
+    "name": "wraithy"
+  },
+  "license": "MIT",
+  "keywords": ["ai", "annotation", "code-marking", "transparency", "comments"]
+}

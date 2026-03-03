@@ -1,0 +1,19 @@
+{
+  "name": "ai-code-marker-marketplace",
+  "owner": {
+    "name": "wraithy"
+  },
+  "metadata": {
+    "description": "Plugin for marking AI-generated code with comment annotations"
+  },
+  "plugins": [
+    {
+      "name": "ai-code-marker",
+      "source": "./",
+      "description": "Mark AI-generated code with start/end comment annotations. Toggle on/off per session or apply retroactively to changed files.",
+      "version": "1.0.0",
+      "keywords": ["ai", "annotation", "code-marking", "transparency"],
+      "category": "code-quality"
+    }
+  ]
+}
