@@ -36,7 +36,7 @@ claude --plugin-dir ./path/to/claude-ai-code-marker
 ### Toggle marking on/off
 
 ```
-/ai-code-marker:mark on
+/mark on
 ```
 
 From this point forward, all code Claude generates will be wrapped with markers:
@@ -55,7 +55,7 @@ export function processData(input: string[]): Record<string, number> {
 To disable:
 
 ```
-/ai-code-marker:mark off
+/mark off
 ```
 
 ### Retroactive scan
@@ -63,13 +63,13 @@ To disable:
 Mark files that were already modified:
 
 ```
-/ai-code-marker:mark-scan
+/mark-scan
 ```
 
 Or target specific files:
 
 ```
-/ai-code-marker:mark-scan src/utils.ts src/api/handler.ts
+/mark-scan src/utils.ts src/api/handler.ts
 ```
 
 ## Marker format
@@ -88,9 +88,9 @@ The plugin uses language-appropriate comment syntax:
 ## How it works
 
 - **Default**: OFF. The plugin does nothing until you activate it.
-- **`/ai-code-marker:mark on`**: Injects a session-level instruction that tells Claude to wrap all generated code with markers.
-- **`/ai-code-marker:mark off`**: Removes the instruction for the rest of the session.
-- **`/ai-code-marker:mark-scan`**: One-shot command that reads git diff, identifies AI-written blocks, and adds markers retroactively.
+- **`/mark on`**: Injects a session-level instruction that tells Claude to wrap all generated code with markers.
+- **`/mark off`**: Removes the instruction for the rest of the session.
+- **`/mark-scan`**: One-shot command that reads git diff, identifies AI-written blocks, and adds markers retroactively.
 
 ## Rules the plugin follows
 

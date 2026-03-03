@@ -11,8 +11,8 @@ This skill controls whether AI-generated code is annotated with markers.
 
 ## Arguments
 
-- `/ai-code-marker:mark on` - Enable marking for this session
-- `/ai-code-marker:mark off` - Disable marking for this session
+- `/mark on` - Enable marking for this session
+- `/mark off` - Disable marking for this session
 
 Parse `$ARGUMENTS` to determine the action.
 
@@ -91,9 +91,9 @@ If `$ARGUMENTS` is empty or missing, explain the usage:
 AI Code Marker - Mark AI-generated code with comment annotations
 
 Usage:
-  /ai-code-marker:mark on    Enable marking for this session
-  /ai-code-marker:mark off   Disable marking for this session
-  /ai-code-marker:mark-scan  Retroactively mark changed files (separate skill)
+  /mark on    Enable marking for this session
+  /mark off   Disable marking for this session
+  /mark-scan  Retroactively mark changed files (separate skill)
 
 Current status: marking is OFF (default)
 ```
